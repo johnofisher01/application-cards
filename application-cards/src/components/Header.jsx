@@ -15,7 +15,6 @@ function Header({ text, bgColor,textColor }) {
     </header>
   );
 }
-
 // these will be used automatically if no props passed into <Header/>
 Header.defaultProps = {
   text: 'Feedback UI',
